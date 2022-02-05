@@ -4,12 +4,17 @@ import Body from './body/Body'
 import Footer from './footer/Footer'
 
 const MainComponent = () => {
-    <div>
-        <Header />
-        <Body />
-        <Footer />
+    return (
+        <div>
+            <Header />
+            <Body />
+            <Footer />
 
-    </div>
+        </div>
+    )
 }
+
+
+
 
 export default MainComponent
